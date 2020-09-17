@@ -28,29 +28,27 @@ export default function Form(props) {
           <div>{errors.password}</div>
           <div>{errors.terms}</div>
         </div>
-        <h5>Name &nbsp;</h5>
+       <div className='inputs'>
         <input
           type='text'
           name='name'
           value={values.name}
           onChange={onChange}
-          placeholder='type members name'
+          placeholder='enter members name'
         />
-        <h5>E-Mail</h5>
         <input
           type='email'
           name='email'
           value={values.email}
           onChange={onChange}
-          placeholder = 'type an email'
+          placeholder = 'enter email'
         />
-        <h5>Password</h5>
         <input
           type='password'
           name='password'
           value={values.password}
           onChange={onChange}
-          placeholder = 'enter a password'
+          placeholder= 'enter password'
         />
         <h4>Terms of Service</h4>
         <p>Blimey carouser gangway lass fire in the hole boatswain spike hail-shot crack Jennys tea cup walk the plank. Quarterdeck pirate grog blossom Chain Shot grog gun hang the jib ahoy chantey lad. Squiffy keel ahoy fire in the hole bowsprit wench starboard grog overhaul handsomely.</p>
@@ -64,6 +62,7 @@ export default function Form(props) {
           onChange={onChange}
         />
         <br />
+       </div>
         <button disabled={disabled}>Submit</button>
       </div>
     </form>

@@ -5,11 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("https://opticalcortex.com/app/uploads/2014/08/grad-670x376.jpg");
+  background-image: url("https://hdwallpaperim.com/wp-content/uploads/2017/08/23/474038-Apollo_8-Earthrise-space-Moon-Earth-NASA.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: left bottom;
   margin: 0 auto;
   padding: 50px;
+}
+
+
+.inputs {
+  text-align: center;
+
 }
 
 h1 {
@@ -20,67 +27,43 @@ h1 {
   font-weight: bold;
 }
 
-h1:hover{
-  font-style: italic;
-  color: maroon
-}
-
-
 h2 {
   text-align: center;
   color: lightgrey;
-  text-shadow: 3px 3px 3px black;
+  text-shadow: 3px 3px 3px rgb(176, 196, 250);
   font-size: 2em;
 }
-
-h2:hover{
-  font-style: italic;
-  color: maroon
-}
-
 
 h4 {
   text-align: center;
   color: lightgrey;
-  text-shadow: 3px 3px 3px black;
+  text-shadow: 3px 3px 3px rgb(176, 196, 250);
   font-size: 1.5em;
 }
 
-h4:hover{
+h1:hover, h2:hover, h4:hover {
   font-style: italic;
-  color: maroon
-}
-
-h5 {
-  color: lightgrey;
-  text-shadow: 3px 3px 3px black;
-  font-size: 1.5em;
-  text-align: center;
-}
-
-h5:hover{
-  font-style: italic;
-  color: maroon
 }
 
 p {
   text-align: center;
-  color: lightgrey;
-  text-shadow: 3px 3px 3px black;
+  margin: 0 auto;
+  color: whitesmoke;
+  text-shadow: 3px 3px 3px rgb(176, 196, 250);
   font-style: italic;
+  width: 75%;
 }
 
 input {
   border-radius: 25px;
-  margin: 0 auto;
+  margin: 0 20px;
   padding: 10px 15px;
   text-align: center;
-  display: flex;
-  justify-content: start;
 }
+
 input:hover{
-  border-radius: 0;
-  background-color: yellow;
+  background-color: rgb(75, 179, 240);
+  color: black;
 }
 
 
@@ -100,19 +83,31 @@ button:hover{
   color: white;
   text-shadow: 3px 3px 3px lightgray;
   background-color: black;
+  border: none;
+  outline: none;
+}
+
+button:focus {
+  border: none;
+  outline: none;
+}
+
+button:active {
+  border: none;
+  outline: none;
 }
 
 .errors {
   color: red;
   font-size: 1.75em;
-  text-shadow: 3px 3px 3px black;
+  text-shadow: 3px 3px 3px rgb(176, 196, 250);
   font-style: oblique;
   font-weight: 500;
 }
 
 .errors:hover{
   font-style: normal;
-  color: black;
+  color: rgb(176, 196, 250);
   text-shadow: 3px 3px 3px red;
 }
 
